@@ -5,10 +5,17 @@
 
 Crypto-Catalogue is an app made with React and Redux, and its purpose is to fetch data for various cryptocurrencies from https://www.coingecko.com/en/api/documentation api and you can also filter data to get a specific coin.
 
-## Screen Shot
+## Home page
 
-![](./src/bookstore.png)
+![](./src/image/home.png)
 
+## Category Page
+
+![](./src/image/category.png)
+
+## CoinDetails Page
+
+![](./src/image/coindetails.png)
 
 ## Built With
 
@@ -16,7 +23,6 @@ Crypto-Catalogue is an app made with React and Redux, and its purpose is to fetc
 - React
 - Redux
 - Node
-- JSX
 - HTML
 - CSS
 
@@ -24,7 +30,7 @@ Crypto-Catalogue is an app made with React and Redux, and its purpose is to fetc
 
 To get a local copy up and running follow these simple example steps.
 
-- Clone the repo https://github.com/Oxford-G/react-redux-bookstore.git
+- Clone the repo git@github.com:Oxford-G/crypto-catalogue.git
 - cd into the root directory
 - `npm install` - This will install all the packages in the package.json file
 - `npm start` - This will run the app locally in the local environment
