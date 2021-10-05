@@ -34,6 +34,7 @@ To get a local copy up and running follow these simple example steps.
 - cd into the root directory
 - `npm install` - This will install all the packages in the package.json file
 - `npm start` - This will run the app locally in the local environment
+- `npm run test` - This will test the app locally in the local environment
 
 ## Live link
 
