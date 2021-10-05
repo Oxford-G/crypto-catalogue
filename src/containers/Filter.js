@@ -18,6 +18,6 @@ const Filter = () => {
       <h3>search coin here...</h3>
     </div>
   );
-}
+};
 
 export default Filter;

@@ -60,6 +60,6 @@ const CoinDetails = () => {
       )}
     </div>
   );
-}
+};
 
 export default CoinDetails;
