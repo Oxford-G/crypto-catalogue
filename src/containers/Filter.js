@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { filterCoin } from '../actions';
 import '../styles/Filter.css';
 
-function Filter() {
+const Filter = () => {
   const dispatch = useDispatch();
 
   const handleChange = (e) => {

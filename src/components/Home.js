@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
 import '../styles/Home.css';
 
-function Home() {
+const Home = () => {
   return (
     <div className="home-container">
       <div className="home-contain">

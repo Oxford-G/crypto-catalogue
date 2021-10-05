@@ -5,7 +5,7 @@ import { fetchCoin } from '../API/api';
 import { seeDetails } from '../actions';
 import '../styles/CoinDetails.css';
 
-function CoinDetails() {
+const CoinDetails = () => {
   const { id } = useParams();
   const currentCoin = useSelector((state) => state.currentCoin);
   const dispatch = useDispatch();

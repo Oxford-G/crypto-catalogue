@@ -5,7 +5,7 @@ import Header from './Header';
 import '../styles/App.css';
 import CoinDetails from '../containers/CoinDetails';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Header />

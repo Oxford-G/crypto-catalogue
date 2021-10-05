@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import Home from '../containers/Home';
+import Home from '../components/Home';
 
 describe('Home', () => {
   it('renders correctly', () => {

@@ -6,7 +6,7 @@ import { getCoin } from '../actions';
 import { coinAPI } from '../API/api';
 import '../styles/Category.css';
 
-function Category() {
+const Category = () => {
   const coins = useSelector((state) => state.coin);
   const filterValue = useSelector((state) => state.filter);
   const dispatch = useDispatch();
